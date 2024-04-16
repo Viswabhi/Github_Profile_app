@@ -1,0 +1,97 @@
+*{
+    font-family: "Poppins", sans-serif;
+}
+    body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+#firstDiv{
+    display: flex;
+    /* background-color: red; */
+    justify-content: space-between;
+    align-items: center;
+}
+h4{
+    font-weight: 100;
+    text-align: center;
+}
+
+img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+#firstSubdiv{
+    display: flex;
+}
+
+main{
+    width: 60%;
+     /* margin-left: 20%; */
+    margin-top: 5%;
+    background-color: #EDEDED;
+    padding: 20px 40px;
+    border-radius: 10px;
+}
+
+#secondSubDiv{
+    /* background-color: blueviolet; */
+    margin-left: 10px;
+}
+
+#secondSubDiv>h3{
+    margin-top: 30px;
+    margin-bottom: 0;
+}
+
+input{
+    width: 400px;
+    height: 50px;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 5%;
+}
+
+#secondDiv{
+    display: flex;
+    justify-content: space-around;
+    /* background-color: blue; */
+    background-color: #FFFFFF;
+    width: 99%;
+    /* margin-left: 80px; */
+    border-radius: 10px;
+}
+
+.fourth{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.fourthSubdiv{
+    display: flex;
+}
+
+
+.fourthSubdiv a{
+    margin-top: 15px;
+}
+
+.icons{
+    width: 20px;
+    height: 20px;
+    margin-top: 15px;
+    margin-right: 3px;
+}
+
+.smallDivs{
+    text-align: center;
+}
+
+#search{
+    margin-top: 13%;
+    border-radius: 50px;
+}
